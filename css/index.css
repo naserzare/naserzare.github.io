@@ -62,6 +62,9 @@
   display: block;
   /* width: 100%; */
   height: auto; 
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 .relcutom {
   position: relative;
@@ -73,14 +76,13 @@
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1; 
-  width: 100%;
   transition: .5s ease;
   opacity:0;
   color: white;
   font-size: 20px;
-  padding: 20px;
+  /* padding: 20px; */
   text-align: center;
-  width: 50%;
+  width: 100%;
 }
 
 .bannerOverlayContainer:hover .overlay {
