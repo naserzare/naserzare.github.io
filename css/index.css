@@ -54,7 +54,7 @@
   * {box-sizing: border-box;}
 
 .bannerOverlayContainer {
-  height: 182px;
+  height: 243px;
 }
 
 .bannerOverlay {
@@ -70,7 +70,6 @@
 
 .overlay {
   position: absolute; 
-  bottom: 0; 
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); /* Black see-through */
   color: #f1f1f1; 
