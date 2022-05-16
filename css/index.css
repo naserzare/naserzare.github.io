@@ -54,15 +54,15 @@
   * {box-sizing: border-box;}
 
 .bannerOverlayContainer {
-  position: relative;
   /* width: 50%; */
   /* max-width: 300px; */
 }
 
 .bannerOverlay {
+  position: relative;
   display: block;
   /* width: 100%; */
-  height: auto;
+  height: auto; 
 }
 
 .overlay {
