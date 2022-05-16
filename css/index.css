@@ -54,13 +54,11 @@
   * {box-sizing: border-box;}
 
 .bannerOverlayContainer {
-  /* width: 50%; */
-  /* max-width: 300px; */
+  height: 182px;
 }
 
 .bannerOverlay {
   display: block;
-  /* width: 100%; */
   height: auto; 
   position: absolute;
   left: 0;
@@ -80,9 +78,10 @@
   opacity:0;
   color: white;
   font-size: 20px;
-  /* padding: 20px; */
   text-align: center;
   width: 100%;
+  left: 0;
+  bottom: 0;
 }
 
 .bannerOverlayContainer:hover .overlay {
